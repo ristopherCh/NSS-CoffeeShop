@@ -1,0 +1,33 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.field {
+	margin-top: 10px;
+}
+
+.field input{
+	width: 100%;
+}
+
+.field label {
+	font-size: 1.1em;
+}
+
+.button {
+	margin-top: 30px;
+	padding: 8px 8px;
+  border-radius: 2px;
+}
